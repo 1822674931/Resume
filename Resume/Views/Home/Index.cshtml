@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>首页</title>
+    <link href="~/Content/css/normalize.css" rel="stylesheet" />
+    <link href="~/Content/css/style.css" rel="stylesheet" />
+    <link href="~/Content/css/Index.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav-dots">
+            <div data-slide="1" class="nav-dot">
+            </div>
+            <div data-slide="2" class="nav-dot">
+            </div>
+            <div data-slide="3" class="nav-dot">
+            </div>
+            <div data-slide="4" class="nav-dot">
+            </div>
+            <div data-slide="5" class="nav-dot">
+            </div>
+        </div>
+        <div data-slide="1" class="panel">
+            <div id="layer-1" class="trans-layer"></div>
+            <section id="section-1" class="section">
+                <div class="section-content header">
+                    <div class="canvaszz"> </div>
+                    <canvas id="canvas"></canvas>
+                    <div class="Myphoto">
+                    </div>
+                    <div class="title">
+                        编程的快乐来源于创造
+                    </div>
+                    <div class="content">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div data-slide="2" class="panel">
+            <div id="layer-2" class="trans-layer"></div>
+            <section id="section-2" class="section">
+                <div class="section-content">
+                    <ul>
+                        <li><a href="#" class="round age"><span class="round">年龄/23</span></a></li>
+                        <li><a href="#" class="round record"><span class="round">学历/本科</span></a></li>
+                        <li><a href="#" class="round profession"><span class="round">职业/软件工程师</span></a></li>
+                        <li><a href="#" class="round addres"><span class="round">坐标/南京</span></a></li>
+                    </ul>
+                    <div class="box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                            <line class="top" x1="0" y1="0" x2="2400" y2="0" />
+                            <line class="left" x1="0" y1="300" x2="0" y2="-600" />
+                            <line class="bottom" x1="800" y1="300" x2="-1600" y2="300" />
+                            <line class="right" x1="800" y1="0" x2="800" y2="900" />
+                            <div class="synopsis">
+                                您好，我是李浩海。是一个目标是全栈的软件工程师。本人对代码的理解能力强，爱好钻研，在上班之余对一些新技术也有钻研。
+                                具有优秀的B/S及C/S项目编写经验，能够快速的适应公司项目开发，有自己独立开发项目的经验，同时也具有公司团队开发的经验与能力。
+                                对工作认真负责，有良好的代码编程习惯，有良好的逻辑分析能力，对公司项目能够快速上手，能够与周围同事友好相处。
+                            </div>
+                        </svg>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div data-slide="3" class="panel">
+            <div id="layer-3" class="trans-layer"></div>
+            <section id="section-3" class="section">
+                <div class="section-content">
+                    <div id="tagsList">
+                        <a href="javascript:ShowInfo();" title="层特效">层特效</a>
+                        <a href="javascript:ShowInfo();" title="关键字">关键字</a>
+                        <a href="javascript:ShowInfo();" title="拖拽">拖拽</a>
+                        <a href="javascript:ShowInfo();" title="分页插件">分页插件</a>
+                        <a href="javascript:ShowInfo();" title="时间插件">时间插件</a>
+                        <a href="javascript:ShowInfo();" title="弹出层">弹出层</a>
+                        <a href="javascript:ShowInfo();" title="数据统计">数据统计</a>
+                        <a href="javascript:ShowInfo();" title="HTML5">HTML5</a>
+                        <a href="javascript:ShowInfo();" title="置顶特效">置顶特效</a>
+                        <a href="javascript:ShowInfo();" title="选项卡">选项卡</a>
+                        <a href="javascript:ShowInfo();" title="导航菜单">导航菜单</a>
+                        <a href="javascript:ShowInfo();" title="HTML5">HTML5</a>
+                        <a href="javascript:ShowInfo();" title="置顶特效">置顶特效</a>
+                        <a href="javascript:ShowInfo();" title="选项卡">选项卡</a>
+                        <a href="javascript:ShowInfo();" title="导航菜单">导航菜单</a>
+                    </div>
+                    <div class="abstract" style="display:none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                            <line class="top" x1="0" y1="0" x2="1500" y2="0" />
+                            <line class="left" x1="0" y1="300" x2="0" y2="-600" />
+                            <line class="bottom" x1="500" y1="300" x2="-1000" y2="300" />
+                            <line class="right" x1="500" y1="0" x2="500" y2="900" />
+                            <div class="synopsis">
+                                介绍
+                            </div>
+                        </svg>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div data-slide="4" class="panel">
+            <div id="layer-4" class="trans-layer"></div>
+            <section id="section-4" class="section">
+                <div class="section-content">
+                    <header>
+                        <button class="cd-nav-trigger">Menu<span aria-hidden="true" class="cd-icon"></span></button>
+                    </header>
+                    <div style="margin-left: 30%;"><h1>我的经历</h1></div>
+                    <div class="cd-projects-container">
+                        <ul>
+                            <li class="single-project">
+                                <div class="cd-title">
+                                    <h2>南京百珏</h2>
+
+                                </div>
+                                <div class="companyInfo">没想好怎么编</div>
+                            </li>
+                            <li class="single-project">
+                                <div class="cd-title">
+                                    <h2>南京星指针</h2>
+                                </div>
+                                <div class="companyInfo">没想好怎么编</div>
+                            </li>
+                            <li class="single-project">
+                                <div class="cd-title">
+                                    <h2>emmmm</h2>
+                                </div>
+                                <div class="companyInfo">没想好怎么编</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div data-slide="5" class="panel">
+            <div id="layer-5" class="trans-layer"></div>
+            <section id="section-5" class="section">
+                <div class="section-content">
+                    <h1>Section 5</h1>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
+<script src="~/Content/js/modernizr-2.6.2.js"></script>
+<script src="~/Content/js/jquery-1.10.2.min.js"></script>
+<script src="~/Content/js/tags.js"></script>
+<script src="~/Content/js/Index.js"></script>
